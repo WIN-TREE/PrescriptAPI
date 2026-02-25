@@ -5,3 +5,5 @@ account_id = ""
 workers_dev = true
 route = ""
 zone_id = ""
+
+main = "./index.js"
