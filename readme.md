@@ -22,16 +22,16 @@ Return result example:
 ---
 
 2.`/prescript`<br/>
-Get a "command"<br/>
+Get a "prescript"<br/>
 Return result example:
 ```json
 {
   "status": "success",
-  "data": "<command content>",
+  "data": "<prescript content>",
   "message": "部分指令由Deepseek编写，剩余来自xiaomu1999f-cpu.github.io与nyos.dev"
 }
 ```
 The current deployment address is `prescript.2dt0.de`.
 
 # Additional Notes
-Some commands are written by Deepseek, the rest come from [xiaomu1999f-cpu.github.io](https://xiaomu1999f-cpu.github.io/xiaomu/zl.html)(Bilibili[@协会长沐沐](https://space.bilibili.com/3546949489789564)) and [nyos.dev](https://nyos.dev/prescript) two websites. Thank you to them!
+Some prescripts are written by Deepseek, the rest come from [xiaomu1999f-cpu.github.io](https://xiaomu1999f-cpu.github.io/xiaomu/zl.html)(Bilibili[@协会长沐沐](https://space.bilibili.com/3546949489789564)) and [nyos.dev](https://nyos.dev/prescript) two websites. Thank you to them!
