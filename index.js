@@ -11,7 +11,8 @@ async function checkService() {
 }
 
 async function getPrescript() {
-    const prescripts = await fetch("https://cdn.jsdelivr.net/gh/WIN-TREE/PrescriptAPI@latest/prescripts.json").json()
+    const resp = await fetch("https://cdn.jsdelivr.net/gh/WIN-TREE/PrescriptAPI@latest/prescripts.json")
+    const prescripts = await resp.json()
     return new Response(JSON.stringify({"status": "success","data": prescripts[Math.floor(Math.random() * prescripts.length)],"message": "部分指令由Deepseek编写，剩余来自xiaomu1999f-cpu.github.io与nyos.dev"}),{headers: { 'content-type': 'application/json' }})
 }
 
