@@ -15,7 +15,8 @@
 ```json
 {
   "status": "success",
-  "data": "服务正常运行"
+  "data": "",
+  "message": "服务正常运行"
 }
 ```
 
